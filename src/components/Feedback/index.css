@@ -1,0 +1,76 @@
+/* Write your CSS code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bg-con {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  min-height: 100vh;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white-con {
+  height: 350px;
+  width: 490px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.emoji {
+  width: 50px;
+  margin: 20px;
+}
+.heading {
+  font-weight: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+.love {
+  width: 80px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thankyou {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.feedbackQuote {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.loveSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
